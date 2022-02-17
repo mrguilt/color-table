@@ -19,24 +19,6 @@ sig {
     font-family: 'Bubblegum Sans', cursive;
 }
 
-biggy
-{
-    font-size: 200%;
-    color: #CEAC15;
-}
-
-dst
-{
-    text-align: center;
-    font-size: 200%;
-    font-family: 'Bakbak One',serif;
-    color: #6667AB;
-}
-
-a.quickhit
-{
-    font-size: 200%;
-}
 
 code {
     font-size: 100%;
@@ -102,47 +84,6 @@ a:visited {
   font-family: 'IBM Plex Sans', sans-serif;
 	  }
 
-bigbold {
-	font-weight: bold;
-	font-size: 20px;
-	color: #ffffff;
-}
-
-hashtag {
-	font-style: fixed;
-	color: #b50a93;
-	font-weight: bold;
-	font-size: 20px;
-	}
-
-
-ul.menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #4791e5;
-    font-size: 15px;
-    }
-
-li.menu {
-    float: left;
-    font-family: sans-serif;
-    font-weight: bold;
-}
-
-li.menu a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 3px 5px;
-    text-decoration: none;
-    }
-
-li.menu a:hover {
-    background-color: #4649E5;
-    }
-
 medtext {
     font-family: "IBM PLex Sans",sans-serif;
     font-weight: 600;
@@ -167,58 +108,4 @@ td {
     font-family: "IBM Plex Sans",sans-serif;    
 }
 
-
-table.temperature {
-    color: #ffffff;
-    text-align: center;
-}
-
-td.temperature {
-    font-family: "IBM PLex Sans",sans-serif;
-    line-height: 23px;
-}
-
-table.bus { 
-    background-color: #fff8e7;
-    border: 2px solid black;
-    font-family: "IBM PLex Sans",sans-serif;
-    font-weight: 400;
-}
-
-td.bus { 
-    background-color: #fff8e7;
-    border: 2px solid black;
-    font-family: "IBM PLex Sans",sans-serif;
-    font-weight: 400;
-}
-
-th.bus { 
-    background-color: #fff8e7;
-    border: 2px solid black;
-    font-family: "IBM PLex Sans",sans-serif;
-    font-weight: 400;
-}
-
-table.coffee { 
-    background-color: #ffffff;
-    border: 2px solid black;
-    font-family: "IBM Plex Serif",serif;
-    font-weight: 400;
-}
-
-td.coffee { 
-    background-color: #ffffff;
-    border: 2px solid black;
-    font-family: "IBM Plex Sans",sans-serif;
-    align: center;
-}
-
-th.coffee { 
-    background-color: #ffffff;
-    color: #b5674d;
-    border: 2px solid black;
-    font-family: "IBM Plex Sans",sans-serif;
-    font-weight: 700;
-    align: center;
-}
 
