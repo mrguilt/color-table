@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Color Table Demo</title>
+        <link rel="stylesheet" type="text/css" href="new-base.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+      <script src="colortable.js"></script>
+
+      <h1>Color Table Demo</h1>
+
+      <h2>Color Demonstration</h2>
+      <div id="colorsample"></div>
+      <script>
+	ColorDemoTable("Sample Text","00ff33");
+      </script>
+      <font onclick='ColorDemoTable("Sample Text","00ff33");'>Reset Demonstration</font>
+      
+    <h2>Crayola Crayons</h2>
+    Demo, based on a box of 24 Craola Crayons.
+
+    	<script>
+	  var ColorData = loadFile("crayola.txt");
+	  PrintTable(ColorData);
+	</script>
+
+<hr>
+<address><sig>This site was created by <a href="mailto:webmaster@mrguilt.com">Charles Barilleaux</a>.</sig><br> Last updated on January 29, 2022.<br>
+    <code>Hosted at <a href="http://mrguilt.com/" target="_blank">MrGuilt.com</a>.</code>
+      </address>
+</body>
+</html>

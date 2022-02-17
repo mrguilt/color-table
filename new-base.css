@@ -1,0 +1,224 @@
+@import url("//fonts.googleapis.com/css2?family=IBM+Plex+Mono");
+@import url("//fonts.googleapis.com/css2?family=IBM+Plex+Sans");
+@import url("//fonts.googleapis.com/css2?family=IBM+Plex+Serif");
+@import url("//fonts.googleapis.com/css2?family=Lexend+Deca");
+@import url("//fonts.googleapis.com/css2?family=Bubblegum+Sans");
+@import url("//fonts.googleapis.com/css2?family=Bakbak+One");
+
+body {
+    background-color: #FAFFC7;
+    color: #000000;
+    font-weight: 500;
+    font-family: 'IBM Plex Serif','Poppins', serif;
+    font-size: 115%
+}
+
+sig {
+    color: #1426e5;
+    font-size: 15px;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+biggy
+{
+    font-size: 200%;
+    color: #CEAC15;
+}
+
+dst
+{
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Bakbak One',serif;
+    color: #6667AB;
+}
+
+a.quickhit
+{
+    font-size: 200%;
+}
+
+code {
+    font-size: 100%;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #006600;
+}
+
+
+h1 {
+    font-family: 'Lexend Deca','IBM Plex Sans', sans-serif;
+    font-size: 250%;
+    font-weight: 900;
+    font-variant: small-caps;
+    text-align: center;
+    color: #294677;
+    margin-bottom: .2em;
+}
+
+h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #5A82BC;
+    font-weight: 700;
+    margin-bottom: .5em;
+   }
+
+
+h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 125%;
+    color: #5A82BC;
+    margin-bottom: .2em;
+}
+
+h4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #5A82BC;
+    font-size: 105%;
+    margin-bottom: .2em;
+    text-decoration: underline;
+}
+
+h5 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #5A82BC;
+    font-style: italic;
+    margin-bottom: .2em;
+}
+
+h6 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #000000;
+    font-style: italic;
+    margin-bottom: .2em;
+}
+
+a:link {
+    color: #2006A2;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a:visited {
+  color: #aa08db;
+  font-family: 'IBM Plex Sans', sans-serif;
+	  }
+
+bigbold {
+	font-weight: bold;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+hashtag {
+	font-style: fixed;
+	color: #b50a93;
+	font-weight: bold;
+	font-size: 20px;
+	}
+
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4791e5;
+    font-size: 15px;
+    }
+
+li.menu {
+    float: left;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+li.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 3px 5px;
+    text-decoration: none;
+    }
+
+li.menu a:hover {
+    background-color: #4649E5;
+    }
+
+medtext {
+    font-family: "IBM PLex Sans",sans-serif;
+    font-weight: 600;
+    color: #000000;
+}
+
+table {
+    color: #000000;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: center;
+    color: #5A82BC;
+    font-weight: 600;
+    font-family: "IBM Plex Sans",sans-serif;
+    font-size: 120%;
+}
+
+td {
+    padding: 5px;
+    font-family: "IBM Plex Sans",sans-serif;    
+}
+
+
+table.temperature {
+    color: #ffffff;
+    text-align: center;
+}
+
+td.temperature {
+    font-family: "IBM PLex Sans",sans-serif;
+    line-height: 23px;
+}
+
+table.bus { 
+    background-color: #fff8e7;
+    border: 2px solid black;
+    font-family: "IBM PLex Sans",sans-serif;
+    font-weight: 400;
+}
+
+td.bus { 
+    background-color: #fff8e7;
+    border: 2px solid black;
+    font-family: "IBM PLex Sans",sans-serif;
+    font-weight: 400;
+}
+
+th.bus { 
+    background-color: #fff8e7;
+    border: 2px solid black;
+    font-family: "IBM PLex Sans",sans-serif;
+    font-weight: 400;
+}
+
+table.coffee { 
+    background-color: #ffffff;
+    border: 2px solid black;
+    font-family: "IBM Plex Serif",serif;
+    font-weight: 400;
+}
+
+td.coffee { 
+    background-color: #ffffff;
+    border: 2px solid black;
+    font-family: "IBM Plex Sans",sans-serif;
+    align: center;
+}
+
+th.coffee { 
+    background-color: #ffffff;
+    color: #b5674d;
+    border: 2px solid black;
+    font-family: "IBM Plex Sans",sans-serif;
+    font-weight: 700;
+    align: center;
+}
+
